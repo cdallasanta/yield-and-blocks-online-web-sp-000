@@ -8,7 +8,7 @@ end
 
 # call your method here!
 hello_t(["Tim", "Tom", "Jim"]) do |name|
-  if name.startWith?("T")
+  if name.startsWith?("T")
     puts name
   end
 end
